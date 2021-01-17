@@ -1,8 +1,8 @@
-#features .fbox-icon i{
+#section-features .fbox-icon i{
     background: unset;
 }
 
-#team{
+#section-team{
     width:70%;
     max-width: 900px;;
 }
@@ -11,7 +11,7 @@
     z-index:100;
 }
 
-#section-services{
+#section-info{
     padding-bottom:0;
 }
 

@@ -10,3 +10,7 @@
 #content{
     z-index:100;
 }
+
+#section-services{
+    padding-bottom:0;
+}

@@ -51,3 +51,9 @@
 
 .en{background: url('./images/icons/eng.svg')}
 .de{background: url('./images/icons/deu.svg')}
+
+.students{
+    background: url('./images/icons/students.svg');
+    color: #00C9AC;
+
+}

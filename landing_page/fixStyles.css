@@ -52,10 +52,30 @@
 .en{background: url('./images/icons/eng.svg')}
 .de{background: url('./images/icons/deu.svg')}
 
-.pupils-together{background: url('./images/icons/pupils-together.svg');}
-.teamwork{background: url('./images/icons/teamwork.svg');}
-.interactive-learning{background: url('./images/icons/interactive-learning.svg');}
-.anywhere{background: url('./images/icons/anywhere.svg');}
-.activities{background: url('./images/icons/activities.svg');}
-.quick-start{background: url('./images/icons/quick-start.svg');}
-.dashboard{background: url('./images/icons/dashboard.svg');}
+#section-features .fbox-icon i {
+    background-size:100% !important;
+    background-color:unset !important;
+    background-position:center !important;
+    width: 44px !important;
+    height:44px !important;
+    border-radius: unset !important;
+}
+
+.pupils-together{background: url('./images/icons/pupils-together.svg') !important}
+.teamwork{background: url('./images/icons/teamwork.svg') !important}
+.interactive-learning{background: url('./images/icons/interactive-learning.svg') !important}
+.anywhere{background: url('./images/icons/anywhere.svg') !important}
+.activities{background: url('./images/icons/activities.svg') !important}
+.quick-start{background: url('./images/icons/quick-start.svg') !important}
+.dashboard{background: url('./images/icons/dashboard.svg') !important}
+
+
+#impressum{
+    width:70%;
+    max-width:900px;
+    margin: 80px auto;
+}
+
+#impressum > div {
+    margin-top: 50px;
+}

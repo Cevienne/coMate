@@ -52,8 +52,10 @@
 .en{background: url('./images/icons/eng.svg')}
 .de{background: url('./images/icons/deu.svg')}
 
-.students{
-    background: url('./images/icons/students.svg');
-    color: #00C9AC;
-
-}
+.pupils-together{background: url('./images/icons/pupils-together.svg');}
+.teamwork{background: url('./images/icons/teamwork.svg');}
+.interactive-learning{background: url('./images/icons/interactive-learning.svg');}
+.anywhere{background: url('./images/icons/anywhere.svg');}
+.activities{background: url('./images/icons/activities.svg');}
+.quick-start{background: url('./images/icons/quick-start.svg');}
+.dashboard{background: url('./images/icons/dashboard.svg');}

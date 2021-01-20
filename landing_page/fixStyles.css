@@ -77,5 +77,10 @@
 }
 
 #impressum > div {
-    margin-top: 50px;
+    margin-top: 70px;
+}
+
+#impressum div h4{
+    margin-bottom:12px;
+    font-size:18px;
 }

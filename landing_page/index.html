@@ -1,700 +1,731 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="de">
+
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Hochschule Augsburg" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Hochschule Augsburg" />
 
-	<!-- Stylesheets
+    <!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|IBM+Plex+Serif:300,400,500,600&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|IBM+Plex+Serif:300,400,500,600&display=swap" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
-	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="one-page/onepage.css" type="text/css" />
-	<!-- / -->
+    <!-- One Page Module Specific Stylesheet -->
+    <link rel="stylesheet" href="one-page/onepage.css" type="text/css" />
+    <!-- / -->
 
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Landing Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/landing/landing.css" type="text/css" />
-	<link rel="stylesheet" href="css/landing/css/fonts.css" type="text/css" />
+    <!-- Landing Demo Specific Stylesheet -->
+    <link rel="stylesheet" href="css/landing/landing.css" type="text/css" />
+    <link rel="stylesheet" href="css/landing/css/fonts.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/colors.php?color=3D80E4" type="text/css" />
+    <link rel="stylesheet" href="css/colors.php?color=3D80E4" type="text/css" />
 
-	<!-- fixing css rules. I know bootstrap is bad. Don't blame please. 	 -->
-	<link rel="stylesheet" href="fixStyles.css">
-	<!-- Document Title
+    <!-- fixing css rules. I know bootstrap is bad. Don't blame please. 	 -->
+    <link rel="stylesheet" href="fixStyles.css">
+    <!-- Document Title
 	============================================= -->
-	<title>coMate</title>
+    <title>coMate</title>
 
-	<style>
-
-		@-webkit-keyframes fadeInUp {
-		  from {
-			opacity: 0;
-			-webkit-transform: translate3d(0, 70px, 0);
-			transform: translate3d(0, 70px, 0);
-		  }
-		}
-
-		@keyframes fadeInUp {
-		  from {
-			opacity: 0;
-			-webkit-transform: translate3d(0, 70px, 0);
-			transform: translate3d(0, 70px, 0);
-		  }
-		}
-
-	</style>
+    <style>
+        @-webkit-keyframes fadeInUp {
+            from {
+                opacity: 0;
+                -webkit-transform: translate3d(0, 70px, 0);
+                transform: translate3d(0, 70px, 0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                -webkit-transform: translate3d(0, 70px, 0);
+                transform: translate3d(0, 70px, 0);
+            }
+        }
+    </style>
 
 </head>
 
 <body class="stretched side-push-panel">
 
-	<!-- Document Wrapper
+    <!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+    <div id="wrapper" class="clearfix">
 
-		<!-- Header
+        <!-- Header
 		============================================= -->
-		<header id="header" class="full-header transparent-header border-full-header header-size-custom" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
+        <header id="header" class="full-header transparent-header border-full-header header-size-custom" data-sticky-shrink="false">
+            <div id="header-wrap">
+                <div class="container">
+                    <div class="header-row">
 
-						<!-- Logo
+                        <!-- Logo
 						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="font-weight-bold nott"  style="font-size: 38px; letter-spacing: -1px;">coMate</a>
-						</div><!-- #logo end -->
+                        <div id="logo">
+                            <a href="index.html" class="font-weight-bold nott" style="font-size: 38px; letter-spacing: -1px;">coMate</a>
+                        </div>
+                        <!-- #logo end -->
 
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
+                        <div id="primary-menu-trigger">
+                            <svg class="svg-trigger" viewBox="0 0 100 100">
+                                <path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
+                                <path d="m 30,50 h 40"></path>
+                                <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
+                            </svg>
+                        </div>
 
-						<!-- Primary Navigation
+                        <!-- Primary Navigation
 						============================================= -->
-						<nav class="primary-menu">
+                        <nav class="primary-menu">
 
-							<ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-								<li class="menu-item">
-									<a href="#section-about" class="menu-link" data-href="#section-about"><div>About</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="#section-features" class="menu-link" data-href="#section-features"><div>Features</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="#section-tech" class="menu-link" data-href="#section-tech"><div>Tech side</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="#section-team" class="menu-link" data-href="#section-team"><div>Team</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="#section-contact" class="menu-link" data-href="#section-contact"><div>Contact</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="english_version.html" class="menu-link lang en" data-href="#wrapper"></a>
-								</li>
-							</ul>
+                            <ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                                <li class="menu-item">
+                                    <a href="#section-about" class="menu-link" data-href="#section-about">
+                                        <div>ABOUT</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#section-features" class="menu-link" data-href="#section-features">
+                                        <div>FEATURES</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#section-tech" class="menu-link" data-href="#section-tech">
+                                        <div>TECH SIDE</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#section-team" class="menu-link" data-href="#section-team">
+                                        <div>TEAM</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#section-contact" class="menu-link" data-href="#section-contact">
+                                        <div>CONTACT</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="english_version.html" class="menu-link lang en"></a>
+                                </li>
+                            </ul>
 
-						</nav><!-- #primary-menu end -->
+                        </nav>
+                        <!-- #primary-menu end -->
 
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element slider-parallax min-vh-100 include-header" style="background: #FFF url('one-page/images/page/yoga/slider-bg.png') no-repeat right top / auto 100%;">
-			<div class="slider-inner">
-				<div class="container py-5">
-
-					<div class="row align-items-center mt-4 h-100">
-						<div class="col-md-6 order-2 order-md-1 my-5 my-md-0 text-center text-md-left">
-							<div class="heading-block border-bottom-0 bottommargin-sm">
-								<h5 class="text-uppercase ls4 text-black-50 font-weight-light mb-2" data-animate="fadeInUp" data-delay="100">the game</h5>
-								<h2 class="font-weight-bold nott" data-animate="fadeInUp" data-delay="200" style="font-size: 48px; letter-spacing: -1px;">coMate</h2>
-							</div>
-							<p class="mb-5 lead" data-animate="fadeInUp" data-delay="400" style="line-height: 1.7;">The app is an interactive game for pupils to feel  connected with their classmates and learn in a playful and entertaining way.</p>
-							<a href="#" data-scrollto="#section-about" data-offset="70"  data-animate="fadeInUp" data-delay="600" class="button button-border button-circle button-large button-dark">More Information</a>
-						</div>
-
-						<div class="col-md-6 order-1 order-md-2">
-							<img src="one-page/images/page/app-education.svg" alt="Education Image"  data-animate="fadeInUp slow" data-delay="600">
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section><!-- #slider end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
-
-				<div id="section-about" class="page-section pb-0">
-
-					<div class="container clearfix">
-
-						<h2 class=" center mx-auto" style="max-width: 700px; font-size: 40px;">coMate</h2>
-
-						<p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">Feel Connected. Be involved.</p>
-
-						<div class="clear"></div>
-
-						<div class="section m-0 bg-transparent pb-0 pt-0">
-							<div class="container clearfix">
-								<div class="row">
-									<div class="col-lg-6 mb-5">
-		
-										<div class="row my-5">
-											<div class="col-md-9">
-												<div class="feature-box fbox-plain">
-													<div class="fbox-icon">
-														<i class="pupils-together"></i>
-													</div>
-													<div class="fbox-content">
-														<h3>Bringing pupils together</h3>
-														<p>coMates connects classmates and strengthens the sense of community in a school class.</p>
-													</div>
-												</div>
-												<div class="line line-sm"></div>
-											</div>
-											<div class="col-md-9">
-												<div class="feature-box fbox-plain">
-													<div class="fbox-icon">
-														<i class="teamwork"></i>
-													</div>
-													<div class="fbox-content">
-														<h3>Work as a team</h3>
-														<p>The words in the app can only be guessed collectively. Teamwork is required here!</p>
-													</div>
-												</div>
-												<div class="line line-sm"></div>
-											</div>
-											<div class="col-md-9">
-												<div class="feature-box fbox-plain">
-													<div class="fbox-icon">
-														<i class="interactive-learning"></i>
-													</div>
-													<div class="fbox-content">
-														<h3>Interactive way of learning</h3>
-														<p>The app brings the necessary variety into the school day, whether online or in presence. With coMates, you can easily repeat what you have learned.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-1"></div>
-		
-									<div class="col-lg-5 d-flex align-items-end">
-										<img src="images/iphone-hand.png" alt="Image">
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-				
-				<!-- /////////////////////////////// FEATURES ///////////////////////////// -->
-				<div id="section-features" class="page-section pb-0">
-					<div class="container clearfix">	
-		                <h2 class="center mx-auto" style="max-width: 700px; font-size: 40px;">Features</h2>
-
-						<p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">What makes coMates special.</p>
-				        
-				        <div class="features-items mx-auto my-5" style="max-width: 1000px;">
-								<div class="row justify-content-around">
-									<div class="col-md-5 bottommargin">
-										<div class="feature-box media-box">
-											<div class="fbox-icon">
-												<i class="anywhere"></i>
-											</div>
-											<div class="fbox-content">
-												<h2 class="h4 font-weight-bold mb-4">Anywhere</h2>
-												<div class="lead font-weight-normal text-black-50">Pupils at home can also participate in classroom games.</div>
-											</div>
-										</div>
-									</div>
-		
-									<div class="col-md-5 bottommargin">
-										<div class="feature-box media-box">
-											<div class="fbox-icon">
-												<i class="activities"></i>
-											</div>
-											<div class="fbox-content">
-												<h2 class="h4 font-weight-bold mb-4">Activities</h2>
-												<div class="lead font-weight-normal text-black-50">coMate encourages pupils to play the game with different activities like explain, draw or mime.</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row justify-content-around">
-									<div class="col-md-5 bottommargin-lg">
-										<div class="feature-box media-box">
-											<div class="fbox-icon">
-												<i class="quick-start"></i>
-											</div>
-											<div class="fbox-content">
-												<h2 class="h4 font-weight-bold mb-4">Quick Start</h2>
-												<div class="lead font-weight-normal text-black-50">Players can quickly start a game by entering the code without registration.</div>
-											</div>
-										</div>
-									</div>
-		
-									<div class="col-md-5 bottommargin-lg">
-										<div class="feature-box media-box">
-											<div class="fbox-icon">
-												<i class="dashboard"></i>
-											</div>
-											<div class="fbox-content">
-												<h2 class="h4 font-weight-bold mb-4">Dashboard</h2>
-												<div class="lead font-weight-normal text-black-50">Teachers can easily create and orgnize games in the dashboard.</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
                     </div>
-				</div>
-
-				<!-- //////////////////////////////:: TECH SECTION ///////////////////////////// -->
-				<div id="section-tech" class="page-section p-0">
-                    <div class="row align-items-stretch align-content-stretch no-gutters topmargin">
-
-					<div class="col-md-6 order-md-2" style="background: url('https://images.unsplash.com/photo-1529661197280-63dc545366c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80') center center / cover; min-height: 300px" ></div>
-
-					<div class="col-md-6 bg-color dark order-md-1">
-						<div class="section-features" id="tech-section">
-							<h2 class="mb-3 h4 font-weight-semibold">Cross-platform & easily maintenable</h2>
-							<p class="h6 font-weight-normal mb-5"> We plan to build our app with Vue.js and deploy it either as a PWA or package it in an Electron app. This will allow to develop an app platform-independant and keep only one codebase for each.</p>
-
-							<h2 class="mb-3 h4 font-weight-semibold">Agile approach</h2>
-							<p class="h6 font-weight-normal">We plan to manage our teamwork work in a agile way, splitting tasks in small units to keep a continuous development while iterating on the project.</p>
-							<p class="h6 font-weight-normal mb-5">For this, Scrum methodology fits perfectly to our vision.</p>
-
-							<h2 class="mb-3 h4 font-weight-semibold">Teamwork first</h2>
-							<p class="h6 font-weight-normal mb-0">Because it is a collaborative project, we'll need to use Git to merge efficiently our work (either Github, Gitlab or another one).</p>
-						</div>
-					</div>
-				</div>
                 </div>
+            </div>
+            <div class="header-wrap-clone"></div>
+        </header>
+        <!-- #header end -->
 
-			<!--//////////////////////////////// TEAM ///////////////////////////////////////////////:-->
-                <div id="section-team" class="center page-section pb-0">
-                <div class="container clearfix">
-                
-						<h2 class=" center mx-auto" style="max-width: 700px; font-size: 40px;">Team</h2>
-
-						<p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">We are coMates.</p>
-
-						<div class="clear"></div>
-						
-				<div class="row topmargin-lg mx-auto" >
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Julia_Wirth.jpg" alt="John Doe">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-github" title="Github">
-											<i class="icon-github"></i>
-											<i class="icon-github"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Julia Wirth</h4></div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Nela-_Sparhuber_150x150.jpg" alt="John Doe">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-github" title="Github">
-											<i class="icon-github"></i>
-											<i class="icon-github"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Nela Sparhuber</h4></div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Simon_Albrecht_150x150.jpg" alt="John Doe">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-github" title="Github">
-											<i class="icon-github"></i>
-											<i class="icon-github"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Simon Albrecht</h4></div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Celine_Benachour_150x150.jpg" alt="John Doe">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-github" title="Github">
-											<i class="icon-github"></i>
-											<i class="icon-github"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Celine Benachour</h4></div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Mojdeh_Khoshpoor_150x150.jpg" alt="John Doe">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-github" title="Github">
-											<i class="icon-github"></i>
-											<i class="icon-github"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Mojdeh Khoshpoor</h4></div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-3 mb-5">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Natalia_Nagyova_150x150.jpg" alt="Mary Jane">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Natalia Nagyova</h4></div>
-							</div>
-						</div>
-
-					</div>
-					
-					<div class="col-md-3 mb-5">
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Marlene%20Hilbig_150x150.jpg" alt="Mary Jane">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Marlene Hilbig</h4></div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 mb-5">
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Xianzhi_Zhang_150x150.jpg" alt="Mary Jane">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Xianzhi Zhang</h4></div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 mb-5">
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Henrike_Boeck_150x150.jpg" alt="Mary Jane">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Henrike Böck</h4></div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 mb-5">
-						<div class="team">
-							<div class="team-image">
-								<img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Larissa_Schmidt_150x150.jpg" alt="Mary Jane">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-										<a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-										<a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-									</div>
-									<div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-								</div>
-							</div>
-							<div class="team-desc team-desc-bg">
-								<div class="team-title"><h4>Larissa Schmidt</h4></div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				
-				</div>
-                </div>
-
-				<div id="section-info" class="page-section pt-0">
-
-					<div class="section m-0">
-						<div class="container clearfix">
-							<div class="mx-auto center" style="max-width: 900px;">
-								<h2 class="mb-0 font-weight-light ls1">We are looking for teammates for supporting us in this project and handle the tech side, both back and front-end. Feel free to contact us if you are interested !</h2>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
+        <!-- Slider
 		============================================= -->
-		<footer id="footer" class="dark border-0">
+        <section id="slider" class="slider-element slider-parallax min-vh-100 include-header" style="background: #FFF url('one-page/images/page/slider-bg.png') no-repeat right top / auto 100%;">
+            <div class="slider-inner">
+                <div class="container py-5">
 
-			<div class="container center">
-				<div class="footer-widgets-wrap">
+                    <div class="row align-items-center mt-4 h-100">
+                        <div class="col-md-6 order-2 order-md-1 my-5 my-md-0 text-center text-md-left">
+                            <div class="heading-block border-bottom-0 bottommargin-sm">
+                                <h5 class="text-uppercase ls4 text-black-50 font-weight-light mb-2" data-animate="fadeInUp" data-delay="100">the game</h5>
+                                <h2 class="font-weight-bold nott" data-animate="fadeInUp" data-delay="200" style="font-size: 48px; letter-spacing: -1px;">coMate</h2>
+                            </div>
+                            <p class="mb-5 lead" data-animate="fadeInUp" data-delay="400" style="line-height: 1.7;">The app is an interactive game for pupils to feel connected with their classmates and learn in a playful and entertaining way.</p>
+                            <a href="#" data-scrollto="#section-about" data-offset="70" data-animate="fadeInUp" data-delay="600" class="button button-border button-circle button-large button-dark">More Information</a>
+                        </div>
 
-					<div class="row mx-auto clearfix">
+                        <div class="col-md-6 order-1 order-md-2">
+                            <img src="one-page/images/page/app-education.svg" alt="Education Image" data-animate="fadeInUp slow" data-delay="600">
+                        </div>
 
-						<div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- #slider end -->
+
+        <!-- Content
+		============================================= -->
+        <section id="content">
+            <div class="content-wrap py-0">
+
+                <div id="section-about" class="page-section pb-0">
+
+                    <div class="container clearfix">
+
+                        <h2 class=" center mx-auto" style="max-width: 700px; font-size: 40px;">coMate</h2>
+
+                        <p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">Feel Connected. Be involved.</p>
+
+                        <div class="clear"></div>
+
+                        <div class="section m-0 bg-transparent pb-0 pt-0">
+                            <div class="container clearfix">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-5">
+
+                                        <div class="row my-5">
+                                            <div class="col-md-9">
+                                                <div class="feature-box fbox-plain">
+                                                    <div class="fbox-icon">
+                                                        <i class="pupils-together"></i>
+                                                    </div>
+                                                    <div class="fbox-content">
+                                                        <h3>Bringing pupils together</h3>
+                                                        <p>coMates connects classmates and strengthens the sense of community in a school class.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="line line-sm"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="feature-box fbox-plain">
+                                                    <div class="fbox-icon">
+                                                        <i class="teamwork"></i>
+                                                    </div>
+                                                    <div class="fbox-content">
+                                                        <h3>Work as a team</h3>
+                                                        <p>The words in the app can only be guessed collectively. Teamwork is required here!</p>
+                                                    </div>
+                                                </div>
+                                                <div class="line line-sm"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="feature-box fbox-plain">
+                                                    <div class="fbox-icon">
+                                                        <i class="interactive-learning"></i>
+                                                    </div>
+                                                    <div class="fbox-content">
+                                                        <h3>Interactive way of learning</h3>
+                                                        <p>The app brings the necessary variety into the school day, whether online or in presence. With coMates, you can easily repeat what you have learned.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1"></div>
+
+                                    <div class="col-lg-5 d-flex align-items-end">
+                                        <img src="images/iphone-hand.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- /////////////////////////////// FEATURES ///////////////////////////// -->
+                <div id="section-features" class="page-section">
+                    <div class="container clearfix">
+                        <h2 class="center mx-auto" style="max-width: 700px; font-size: 40px;">Features</h2>
+
+                        <p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">What makes coMates special.</p>
+
+                        <div class="features-items mx-auto mt-5 mb-0" style="max-width: 1000px;">
+                            <div class="row justify-content-around">
+                                <div class="col-md-5 bottommargin">
+                                    <div class="feature-box media-box">
+                                        <div class="fbox-icon">
+                                            <i class="anywhere"></i>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h2 class="h4 font-weight-bold mb-4">Anywhere</h2>
+                                            <div class="lead font-weight-normal text-black-50">Pupils at home can also participate in classroom games.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 bottommargin">
+                                    <div class="feature-box media-box">
+                                        <div class="fbox-icon">
+                                            <i class="activities"></i>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h2 class="h4 font-weight-bold mb-4">Activities</h2>
+                                            <div class="lead font-weight-normal text-black-50">coMate encourages pupils to play the game with different activities like explain, draw or mime.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-around">
+                                <div class="col-md-5 mb-0">
+                                    <div class="feature-box media-box">
+                                        <div class="fbox-icon">
+                                            <i class="quick-start"></i>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h2 class="h4 font-weight-bold mb-4">Quick Start</h2>
+                                            <div class="lead font-weight-normal text-black-50">Players can quickly start a game by entering the code without registration.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 mb-0">
+                                    <div class="feature-box media-box">
+                                        <div class="fbox-icon">
+                                            <i class="dashboard"></i>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h2 class="h4 font-weight-bold mb-4">Dashboard</h2>
+                                            <div class="lead font-weight-normal text-black-50">Teachers can easily create and orgnize games in the dashboard.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- //////////////////////////////:: TECH SECTION ///////////////////////////// -->
+                <div id="section-tech" class="page-section p-0">
+                    <div class="row align-items-stretch align-content-stretch no-gutters">
+
+                        <div class="col-md-6 order-md-2" style="background: url('https://images.unsplash.com/photo-1529661197280-63dc545366c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80') center center / cover; min-height: 300px"></div>
+
+                        <div class="col-md-6 bg-color dark order-md-1">
+                            <div class="section-features" id="tech-section">
+                                <h2 class="mb-3 h4 font-weight-semibold">Cross-platform & easily maintenable</h2>
+                                <p class="h6 font-weight-normal mb-5"> We plan to build our app with Vue.js and deploy it either as a PWA or package it in an Electron app. This will allow to develop an app platform-independant and keep only one codebase for each.</p>
+
+                                <h2 class="mb-3 h4 font-weight-semibold">Agile approach</h2>
+                                <p class="h6 font-weight-normal">We plan to manage our teamwork work in a agile way, splitting tasks in small units to keep a continuous development while iterating on the project.</p>
+                                <p class="h6 font-weight-normal mb-5">For this, Scrum methodology fits perfectly to our vision.</p>
+
+                                <h2 class="mb-3 h4 font-weight-semibold">Teamwork first</h2>
+                                <p class="h6 font-weight-normal mb-0">Because it is a collaborative project, we'll need to use Git to merge efficiently our work (either Github, Gitlab or another one).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--//////////////////////////////// TEAM ///////////////////////////////////////////////:-->
+                <div id="section-team" class="center page-section">
+                    <div class="container clearfix">
+
+                        <h2 class=" center mx-auto" style="max-width: 700px; font-size: 40px;">Team</h2>
+
+                        <p class="center lead font-weight-normal font-primary mx-auto" style="max-width: 800px;">We are coMates.</p>
+
+                        <div class="clear"></div>
+
+                        <div class="row topmargin-lg mx-auto">
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Julia_Wirth.jpg" alt="John Doe">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
+                                                    <i class="icon-facebook"></i>
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-github" title="Github">
+                                                    <i class="icon-github"></i>
+                                                    <i class="icon-github"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Julia Wirth</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Nela-_Sparhuber_150x150.jpg" alt="John Doe">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
+                                                    <i class="icon-facebook"></i>
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-github" title="Github">
+                                                    <i class="icon-github"></i>
+                                                    <i class="icon-github"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Nela Sparhuber</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Simon_Albrecht_150x150.jpg" alt="John Doe">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
+                                                    <i class="icon-facebook"></i>
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-github" title="Github">
+                                                    <i class="icon-github"></i>
+                                                    <i class="icon-github"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Simon Albrecht</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Celine_Benachour_150x150.jpg" alt="John Doe">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
+                                                    <i class="icon-facebook"></i>
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-github" title="Github">
+                                                    <i class="icon-github"></i>
+                                                    <i class="icon-github"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Celine Benachour</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Mojdeh_Khoshpoor_150x150.jpg" alt="John Doe">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-facebook" title="Facebook">
+                                                    <i class="icon-facebook"></i>
+                                                    <i class="icon-facebook"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-github" title="Github">
+                                                    <i class="icon-github"></i>
+                                                    <i class="icon-github"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Mojdeh Khoshpoor</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Natalia_Nagyova_150x150.jpg" alt="Mary Jane">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
+                                                    <i class="icon-vimeo"></i>
+                                                    <i class="icon-vimeo"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
+                                                    <i class="icon-instagram"></i>
+                                                    <i class="icon-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Natalia Nagyova</h4></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Marlene%20Hilbig_150x150.jpg" alt="Mary Jane">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
+                                                    <i class="icon-vimeo"></i>
+                                                    <i class="icon-vimeo"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
+                                                    <i class="icon-instagram"></i>
+                                                    <i class="icon-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Marlene Hilbig</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mb-5">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Xianzhi_Zhang_150x150.jpg" alt="Mary Jane">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
+                                                    <i class="icon-vimeo"></i>
+                                                    <i class="icon-vimeo"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
+                                                    <i class="icon-instagram"></i>
+                                                    <i class="icon-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Xianzhi Zhang</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Henrike_Boeck_150x150.jpg" alt="Mary Jane">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
+                                                    <i class="icon-vimeo"></i>
+                                                    <i class="icon-vimeo"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
+                                                    <i class="icon-instagram"></i>
+                                                    <i class="icon-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Henrike Böck</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img src="https://www.hs-augsburg.de/homes/john/mobile-experience/master/Bilder/Larissa_Schmidt_150x150.jpg" alt="Mary Jane">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+                                                <a href="#" class="social-icon si-borderless si-small si-twitter" title="Twitter">
+                                                    <i class="icon-twitter"></i>
+                                                    <i class="icon-twitter"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-vimeo" title="Vimeo">
+                                                    <i class="icon-vimeo"></i>
+                                                    <i class="icon-vimeo"></i>
+                                                </a>
+                                                <a href="#" class="social-icon si-borderless si-small si-instagram" title="Instagram">
+                                                    <i class="icon-instagram"></i>
+                                                    <i class="icon-instagram"></i>
+                                                </a>
+                                            </div>
+                                            <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
+                                        </div>
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Larissa Schmidt</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="section-contact" class="page-section p-0">
+
+                    <div class="section m-0">
+                        <div class="container clearfix">
+                            <div class="mx-auto center" style="max-width: 900px;">
+                                <h2 class="mb-0 font-weight-light ls1">We are looking for teammates for supporting us in this project and handle the tech side, both back and front-end. </br>Feel free to contact us if you are interested !</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
 
-						<div class="col-md-4">
-							<div class="widget clearfix">
-								<h4>Contact</h4>
+            </div>
+        </section>
+        <!-- #content end -->
 
-								<p class="lead">
-									University of Applied Sciences Augsburg<br>
-									At the University 1<br>
-									86161 Augsburg
-								</p>
+        <!-- Footer
+		============================================= -->
+        <footer id="footer" class="dark border-0">
 
-								<div class="center topmargin-sm">
-									<a href="https://www.facebook.com/hochschule.augsburg/" class="social-icon inline-block border-0 si-small si-facebook" title="Facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="https://twitter.com/HS_Augsburg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon inline-block border-0 si-small si-twitter" title="Twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="#" class="social-icon inline-block border-0 si-small si-github" title="Github">
-										<i class="icon-github"></i>
-										<i class="icon-github"></i>
-									</a>
-									<a href="#" class="social-icon inline-block border-0 si-small si-pinterest" title="Pinterest">
-										<i class="icon-pinterest"></i>
-										<i class="icon-pinterest"></i>
-									</a>
-								</div>
-							</div>
-						</div>
+            <div class="container center">
+                <div class="footer-widgets-wrap">
 
-						<div class="col-md-4"></div>
+                    <div class="row mx-auto clearfix">
 
-					</div>
+                        <div class="col-md-4"></div>
 
-				</div>
-			</div>
 
-			<div id="copyrights">
-				<div class="container center clearfix">
-					Copyrights IMS 2020-21 | All Rights Reserved | <a href="impressum_de.html">Impressum</a>
+                        <div class="col-md-4">
+                            <div class="widget clearfix">
+                                <h3>Contact</h3>
 
-				</div>
-			</div>
+                                <p class="lead m-0">
+                                    University of Applied Sciences Augsburg
+                                    <br> At the University 1
+                                    <br> 86161 Augsburg
+                                </p>
+                                <!--
+                                <div class="center topmargin-sm">
+                                    <a href="https://www.facebook.com/hochschule.augsburg/" class="social-icon inline-block border-0 si-small si-facebook" title="Facebook">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                    <a href="https://twitter.com/HS_Augsburg?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon inline-block border-0 si-small si-twitter" title="Twitter">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon inline-block border-0 si-small si-github" title="Github">
+                                        <i class="icon-github"></i>
+                                        <i class="icon-github"></i>
+                                    </a>
+                                    <a href="#" class="social-icon inline-block border-0 si-small si-pinterest" title="Pinterest">
+                                        <i class="icon-pinterest"></i>
+                                        <i class="icon-pinterest"></i>
+                                    </a>
+                                </div>
+                                -->
+                            </div>
+                        </div>
 
-		</footer><!-- #footer end -->
+                        <div class="col-md-4"></div>
 
-	</div><!-- #wrapper end -->
+                    </div>
 
-	<!-- Go To Top
+                </div>
+            </div>
+
+            <div id="copyrights">
+                <div class="container center clearfix">
+                    Copyright IMS 2020-21 | All Rights Reserved | <a href="impressum_de.html">Impressum</a>
+
+                </div>
+            </div>
+
+        </footer>
+        <!-- #footer end -->
+
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- JavaScripts
+    <!-- JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
 
-	<!-- Footer Scripts
+    <!-- Footer Scripts
 	============================================= -->
-	<script src="js/functions.js"></script>
+    <script src="js/functions.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,86 @@
+#section-features .fbox-icon i{
+    background: unset;
+}
+
+#content{
+    z-index:100;
+}
+
+#section-info{
+    padding-bottom:0;
+}
+
+.fill{
+    width:100%;
+    height:100%;
+}
+
+.loadingImage{
+    position: relative;
+    overflow: hidden;
+    background: rgb(60, 60, 65) !important;
+}
+
+.loadingImage::after{
+    position: absolute;
+    content: ' ';
+    top:0;
+    left:-50%;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to right, rgb(60, 60, 65), rgb(95, 94, 99),  rgb(60, 60, 65));
+    animation: loop infinite linear 1s;
+}
+
+@keyframes loop{
+    from{
+        left:-50%;
+    }
+    to{
+        left:100%;
+    }
+}
+
+.lang{
+    width:22px;
+    height:22px;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    padding: unset !important;
+}
+
+.en{background: url('./images/icons/eng.svg')}
+.de{background: url('./images/icons/deu.svg')}
+
+#section-features .fbox-icon i {
+    background-size:100% !important;
+    background-color:unset !important;
+    background-position:center !important;
+    width: 44px !important;
+    height:44px !important;
+    border-radius: unset !important;
+}
+
+.pupils-together{background: url('./images/icons/pupils-together.svg') !important}
+.teamwork{background: url('./images/icons/teamwork.svg') !important}
+.interactive-learning{background: url('./images/icons/interactive-learning.svg') !important}
+.anywhere{background: url('./images/icons/anywhere.svg') !important}
+.activities{background: url('./images/icons/activities.svg') !important}
+.quick-start{background: url('./images/icons/quick-start.svg') !important}
+.dashboard{background: url('./images/icons/dashboard.svg') !important}
+
+
+#impressum{
+    width:70%;
+    max-width:900px;
+    margin: 80px auto;
+}
+
+#impressum > div {
+    margin-top: 70px;
+}
+
+#impressum div h4{
+    margin-bottom:12px;
+    font-size:18px;
+}
